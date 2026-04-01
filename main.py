@@ -23,10 +23,10 @@ from fastapi.responses import StreamingResponse, JSONResponse
 import uvicorn
 
 # ========== 硬编码配置 ==========
-CREDENTIALS_PATH = Path("config") / "ndxny-gemini-251011-3f7ffb224498.json"
-PROJECT_ID = "ndxny-gemini-251011"
+CREDENTIALS_PATH = Path("config") / ""
+PROJECT_ID = ""
 LOCATION = "global"
-MODEL_NAME = "claude-sonnet-4-5@20250929"
+MODEL_NAME = ""
 # ===============================
 
 # 图片格式魔数检测
