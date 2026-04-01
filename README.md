@@ -125,11 +125,11 @@ vertex2openai/
 
 ```yaml
 model_list:
-  - model_name: claude-sonnet-4-5
+  - model_name: ...
     litellm_params:
-      model: vertex_ai/claude-sonnet-4-5@20250929
+      model: vertex_ai/...
       vertex_project: your-project-id
-      vertex_location: global
+      vertex_location: ...
       vertex_credentials: config/your-credentials.json
 
   - model_name: claude-haiku-3-5
